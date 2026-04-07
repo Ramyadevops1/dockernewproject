@@ -3,13 +3,13 @@ services:
   diamond:
     image: iramya/daimondbox:latest
     ports:
-      - "81:80"
+      - "87:80"
     deploy:
       replicas: 3
   circle:
     image: iramya/circlebox:latest
     ports:
-      - "82:80"
+      - "88:80"
     deploy:
       replicas: 3
  
